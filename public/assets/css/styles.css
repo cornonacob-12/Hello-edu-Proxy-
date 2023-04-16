@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fira+Sans+Extra+Condensed:wght@700&family=Inter:wght@400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.4s ease;
+  overflow-x: hidden;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  background: #000000;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 2em;
+  color: #9CAF88;
+  user-select: none;
+}
+
+.navigation a {
+  user-select: none;
+  position: relative;
+  font-size: 1.1em;
+  color: #9CAF88;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navigation a:hover {
+  color: white;
+}
+
+.logo:hover {
+  color: white;
+}
+
+#particles {
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.btn {
+  box-shadow: 0 4px 8px 0 #00001d;
+  user-select: none;
+  font-weight: 500;
+  z-index: 2;
+  position: absolute;
+  width: 25%;
+  background: #9CAF88;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  left: 40%;
+  opacity: 0.7;
+  transform: translateX(100%);
+  bottom: 30%;
+  transform: translateY(100%);
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px 0 #00001d;
+  font-weight: 500;
+  z-index: 2;
+  position: absolute;
+  width: 25%;
+  background: #9CAF88;
+  opacity: 0.8;
+  color: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  border: #ddd;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  left: 40%;
+  transform: translateX(100%);
+  bottom: 30%;
+  transform: translateY(100%);
+}
+
+#iurl {
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 #00001d;
+  font-weight: 700;
+  z-index: 2;
+  position: absolute;
+  width: 35%;
+  background: #9CAF88;
+  opacity: 0.7;
+  bottom: 40%;
+  left: 35%;
+}
+
+#iurl:hover {
+  font-size: 1rem;
+  border-radius: 20px;
+  color: #000000;
+  background: #9CAF88;
+}
+
+.copyright {
+  user-select: none;
+  left: 1%;
+  bottom: 1%;
+  color: #ddd;
+  position: absolute;
+  z-index: 2;
+  color: #9CAF88;
+}
+
+.credits {
+  user-select: none;
+  right: 1%;
+  bottom: 1%;
+  color: #ddd;
+  position: absolute;
+  z-index: 2;
+  color: #9CAF88;
+}
+
+#iurl::placeholder {
+  color: #00001d;
+}
+
+#iurl:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #00001d;
+}
+
+#iurl:-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #00001d;
+}
+
+.url {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.black_text {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.container {
+  margin-top: 10%;
+  font-family: "Noto Sans JP";
+  font-size: "50px";
+  color: #fff;
+  
+}
+
+.container p {
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+.container a {
+  height: 20px;
+  background: inherit;
+  color: #ddd;
+  border: 0;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+#frame {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  user-select: none;
+}
+
+.black_text {
+  color: black;
+}
+
+.copyright {
+  left: 1%;
+  bottom: 1%;
+  color: #ddd;
+  position: absolute;
+  z-index: 2;
+}
+
+.credits {
+  right: 1%;
+  bottom: 1%;
+  color: #ddd;
+  position: absolute;
+  z-index: 2;
+}
+
+body {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"%3E%3Ccircle cx="10" cy="10" r="8" fill="white" /%3E%3C/svg%3E')
+      10 10,
+    auto;
+  box-shadow: 0 0 10px 5px yellow;
+}
